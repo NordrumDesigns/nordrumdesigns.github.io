@@ -28,3 +28,19 @@ h1 span:nth-child(22):hover { color: #ff5733; } /* o */
 h1 span:nth-child(23):hover { color: #33ff57; } /* l */
 h1 span:nth-child(24):hover { color: #3357ff; } /* i */
 h1 span:nth-child(25):hover { color: #ff33d1; } /* o */
+
+footer ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+
+footer a {
+    border-radius: 5px;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: aliceblue;
+}
