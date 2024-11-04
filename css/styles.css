@@ -1,34 +1,3 @@
-h1 span:hover {
-    transform: rotate(10deg) translateY(-10px) rotateZ(-10deg);
-}
-  
-h1 span:nth-child(1):hover { color: #ff5733; } /* C */
-h1 span:nth-child(2):hover { color: #33ff57; } /* h */
-h1 span:nth-child(3):hover { color: #3357ff; } /* r */
-h1 span:nth-child(4):hover { color: #ff33d1; } /* i */
-h1 span:nth-child(5):hover { color: #ff9633; } /* s */
-h1 span:nth-child(6):hover { color: #33d1ff; } /*  */
-h1 span:nth-child(7):hover { color: #ff33a1; } /* N */
-h1 span:nth-child(8):hover { color: #75ff33; } /* o */
-h1 span:nth-child(9):hover { color: #ff337a; } /* r */
-h1 span:nth-child(10):hover { color: #9c33ff; } /* d */
-h1 span:nth-child(11):hover { color: #ff8333; } /* r */
-h1 span:nth-child(12):hover { color: #33ffcf; } /* u */
-h1 span:nth-child(13):hover { color: #ff3333; } /* m */
-h1 span:nth-child(14):hover { color: #57ff33; } /* ' */
-h1 span:nth-child(15):hover { color: #33a1ff; } /* s */
-
-h1 span:nth-child(16):hover { color: #ff9a33; } /*  */
-h1 span:nth-child(17):hover { color: #33ff8a; } /* P */
-h1 span:nth-child(18):hover { color: #d133ff; } /* o */
-h1 span:nth-child(19):hover { color: #ff3b33; } /* r */
-h1 span:nth-child(20):hover { color: #33d1ff; } /* t */
-h1 span:nth-child(21):hover { color: #ff9a33; } /* f */
-h1 span:nth-child(22):hover { color: #ff5733; } /* o */
-h1 span:nth-child(23):hover { color: #33ff57; } /* l */
-h1 span:nth-child(24):hover { color: #3357ff; } /* i */
-h1 span:nth-child(25):hover { color: #ff33d1; } /* o */
-
 footer ul {
     display: flex;
     padding-left: 0;
