@@ -4,6 +4,24 @@ h1, h2, h3 {
     font-family: futura, sans-serif;
 }
 
+.fa-linkedin {
+    color: #fff;
+    background-color: #0077B5;
+}
+
+.fa-instagram {
+    color: #fff;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.fa-github {
+    color: #fff;
+    background-color: #171515;
+}
 
 
 /* Header */
@@ -39,10 +57,40 @@ header a {
     margin: 0.5em;
 }
 
-.portfolio {
-    background-image: url("/images/Imac_24.png");
+/* Hero Section */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
+.hero img {
+    max-width: 45%;
+    float: right;
+}
+
+.hero-text {
+    float: left;
+}
+
+.hero ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.hero a {
+    border-radius: 5px;
+    padding: 0.3em;
+    margin: 0.2em;
+    text-decoration: none;
+}
+
+.hero a:hover {
+    transform: scale(1.1);
+    opacity: 0.7;
+}
 
 footer ul {
     display: flex;
