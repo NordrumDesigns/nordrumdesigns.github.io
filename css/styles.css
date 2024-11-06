@@ -1,22 +1,23 @@
+/* ALL PAGES */
+
+h1, h2, h3 {
+    font-family: futura, sans-serif;
+}
+
+
+
 /* Header */
 
 header {
-    background-color: #7851A9;
+    color: #7851A9;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-span:nth-child(1) {
-    text-indent: -9999px;
+    padding-left: 20px;
 }
 
 h1 {
-    
-}
-
-h1 a {
-    text-decoration: none;
+    text-transform: uppercase;
 }
 
 header nav {
@@ -28,15 +29,19 @@ header ul{
     display: flex;
     justify-content: flex-end;
     box-sizing: border-box;
-    padding: 20px;
+    padding-right: 20px;
     list-style: none;
 }
 
 header a {
+    color: #7851A9;
     text-decoration: none;
     margin: 0.5em;
 }
 
+.portfolio {
+    background-image: url("/images/Imac_24.png");
+}
 
 
 footer ul {
