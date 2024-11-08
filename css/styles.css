@@ -40,9 +40,7 @@ p {
 }
 
 @media screen and (max-width: 600px) {
-    .hero-text {
-        width: 100%;
-    }
+    width: 100%;
 }
 
 
@@ -86,6 +84,7 @@ header a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 #hero img {
