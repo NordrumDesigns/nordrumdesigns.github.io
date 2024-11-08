@@ -9,12 +9,14 @@
     <link rel="icon" type="image/x-icon" href="/images/HAAKON-Favicon.png">
 
 <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Holtwood+One+SC&family=Noto+Sans+Runic&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
+    <div class="container">
 
 <!--Header-->
 
@@ -23,15 +25,15 @@
         <h1><a href="/">Chris Nordrum</a></h1>
         <nav> 
             <ul>
+                <li><a class="active" href="/">Home</a></li>
                 <li><a href="/about/index.html">About Me</a></li>
                 <li><a href="/projects/index.html">My Work</a></li>
-                <li><a href="/sidequests/index.html">Side Quests</a></li>
             </ul>
         </nav>
 
     </header>
 
-    <main>
+    <main class="grid">
 
 <!--Hero Section-->
 
@@ -45,17 +47,16 @@
                     <li><a href="https://github.com/nordrumdesigns/" target="_blank" aria-label="Follow Chris Nordrum on GitHub" class="fa fa-github"></a></li>
                 </ul>
             </div>
-            <img src="/images/chris-nordrum-profile.png" alt="">
+            <img src="/images/chris-nordrum-profile.png" alt="" width="500px">
         </section>
 
 <!--Projects Section-->
 
-        <section id="portfolio">
+        <section id="my-work">
 
             <h2>My Work</h2>
-            <figure>
-               <img src="/images/The-Counterpunch.png">
-            </figure>
+
+            <img src="/images/TCP-Screenshot.png" max width="1000px">
 
             <ul>
                 <li><a href="https://thecounterpunch.ca/" target="_blank">The Counterpunch Boxing Club</a></li>
@@ -75,7 +76,7 @@
 
 <!--Footer-->
 
-    <footer>
+    <footer class="grid">
         <h2>Get in touch.</h2>
         <ul>
            <li><a href="https://www.instagram.com/nordrumdesigns/" aria-label="Follow Chris Nordrum on Instagram" class="fa fa-instagram"></a></li>
@@ -84,5 +85,7 @@
         </ul>
         <small>© Chris Haakon Nordrum. All Rights Reserved.</small>
     </footer>
+
+    </div>
 </body>
 </html>
