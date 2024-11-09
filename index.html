@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chris Nordrum</title>
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="/images/HAAKON-Favicon.png">
 
 <!--Google Fonts-->
@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <div class="container">
+
 
 <!--Header-->
 
@@ -33,7 +33,7 @@
 
     </header>
 
-    <main class="grid">
+    <main>
 
 <!--Hero Section-->
 
@@ -42,9 +42,9 @@
                 <h2>Web Designer / Developer</h2>
                 <p>Hi, my name is Chris Haakon Nordrum and I am a web designer and developer in training. I am on track to complete SAIT's Interactive Design Diploma by the summer of 2026.</p>
                 <ul>
-                    <li><a href="https://www.linkedin.com/in/chris-nordrum-63151b2a4/" target="_blank" aria-label="Connect with Chris Nordrum on LinkedIn" class="fa fa-linkedin"></a></li>
-                    <li><a href="https://www.instagram.com/nordrumdesigns/" target="_blank" aria-label="Follow Chris Nordrum on Instagram" class="fa fa-instagram"></a></li>
-                    <li><a href="https://github.com/nordrumdesigns/" target="_blank" aria-label="Follow Chris Nordrum on GitHub" class="fa fa-github"></a></li>
+                    <li><a href="https://www.linkedin.com/in/chris-nordrum-63151b2a4/" target="_blank" aria-label="Connect with Chris Nordrum on LinkedIn" class="fa-brands fa-linkedin-in"></a></li>
+                    <li><a href="https://www.instagram.com/nordrumdesigns/" target="_blank" aria-label="Follow Chris Nordrum on Instagram" class="fa-brands fa-instagram"></a></li>
+                    <li><a href="https://github.com/nordrumdesigns/" target="_blank" aria-label="Follow Chris Nordrum on GitHub" class="fa-brands fa-github"></a></li>
                 </ul>
             </div>
             <img src="/images/chris-nordrum-profile.png" alt="" width="500px">
@@ -52,31 +52,54 @@
 
 <!--Projects Section-->
 
-        <section id="my-work">
-
+        <section id="projects">
             <h2>My Work</h2>
-
-            <img src="/images/TCP-Screenshot.png" max width="1000px">
-
-            <ul>
-                <li><a href="https://thecounterpunch.ca/" target="_blank">The Counterpunch Boxing Club</a></li>
-                <li><a href="https://padautodetailing.square.site/" target="_blank">PAD Auto Detailing</a></li>
-            </ul>
-            <a href="./projects/index.html">View All</a>
+            <div class="grid">
+                <img src="/images/TCP-Screenshot.png" alt="" class="project-pic" width="1000px">
+                <div class="row">
+                    <img src="/images/Haakon-Wordmark.jpg" alt="" class="project-pics" width="500px" height="500px">
+                    <img src="/images/pad-iphone-mockup.jpg" alt="" class="project-pics" width="500px" height="500px">
+                </div>
+            </div>
+            <button>View All Projects</button>
         </section>
 
-<!--About Section-->
+<!--Skills Section-->
 
-        <section>
-            <h2>About Me</h2>
-            <p>Hi, my name is Chris Haakon Nordrum and I am a web designer and developer in training. I am on track to complete SAIT's Interactive Design Diploma by the summer of 2026.</p>
-            <a href="./about/index.html">Learn More</a>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="container">
+                <figure>
+                    <i class="fa fa-illustrator"></i>
+                    <figcaption>Visual Design</figcaption>
+                </figure>
+                <figure>
+                    <i class="fa fa-users-rectangle"></i>
+                    <figcaption>UX Design</figcaption>
+                </figure>
+                <figure>
+                    <i class="fa fa-camera"></i>
+                    <figcaption>Digital Media</figcaption>
+                </figure>
+                <figure>
+                    <i class="fa-brands fa-html5"></i>
+                    <figcaption>HTML</figcaption>
+                </figure>
+                <figure>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <figcaption>CSS</figcaption>
+                </figure>
+                <figure>
+                    <i class="fa-brands fa-js"></i>
+                    <figcaption>JavaScript</figcaption>
+                </figure>
+            </div>
         </section>
-    </main>
+
 
 <!--Footer-->
 
-    <footer class="grid">
+    <footer>
         <h2>Get in touch.</h2>
         <ul>
            <li><a href="https://www.instagram.com/nordrumdesigns/" aria-label="Follow Chris Nordrum on Instagram" class="fa fa-instagram"></a></li>
@@ -86,6 +109,6 @@
         <small>© Chris Haakon Nordrum. All Rights Reserved.</small>
     </footer>
 
-    </div>
+    
 </body>
 </html>
