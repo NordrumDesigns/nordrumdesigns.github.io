@@ -180,10 +180,14 @@ footer a:hover {
 .hero-text {
     flex: auto;
     float: left;
-    padding-right: 25px;
+    padding: 25px;
 }
 
 #hero ul {
+    
+}
+
+.socials {
     display: flex;
     list-style: none;
 }
@@ -237,7 +241,7 @@ footer a:hover {
 #projects {
     background-color: #bfcde0;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
     margin: auto;
 }
 
@@ -248,6 +252,11 @@ footer a:hover {
 svg {
     transform: scaleX(-1);
     background-color: #bfcde0;
+}
+
+#svg-bottom {
+    transform: scaleX(-1);
+    transform: rotate(180deg);
 }
 
 .project-pic {
@@ -262,10 +271,85 @@ svg {
 .grid {
     display: grid;
     margin: 25px;
+    padding-bottom: 25px;
     max-width: 100%;
     background-color: #bfcde0;
 }
 
 .row {
     display: flex;
+}
+
+button {
+    background-color: #7851A9;
+    border: none;
+    color: #fefcfd;
+    font-family: futura, sans-serif;
+    padding: 10px 24px;
+    border-radius: 8px;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2px 4px #07070a;
+    opacity: 0.9;
+}
+
+
+/* ABOUT PAGE */
+
+/* Aside */
+
+aside a {
+    text-decoration: none;
+}
+
+/* Main */
+
+.fa {
+    color: #7851A9;
+}
+
+.date {
+    color: #7851A9;
+}
+
+.current {
+    background-color: #7851A9;
+    color: #fefcfd;
+    padding: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 4px;
+}
+
+/* Education Section */
+
+thead {
+    display: flex;
+}
+
+/* Goals Section */
+
+#world_map {
+    max-width: 980px;
+    margin: 5px auto 10px auto;
+    border-radius: 50%;
+    background-color: #4169e1;
+}
+
+.map-frame {
+    position: relative;
+    padding: 0 0 67% 0;
+    height: 0;
+    overflow: hidden;
+    background-color: #4169e1;
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
