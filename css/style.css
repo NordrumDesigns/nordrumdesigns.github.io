@@ -14,6 +14,13 @@ Black #07070A */
     background-color: #fefcfd;
 }
 
+h1 {
+    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
 h2, h3 {
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
@@ -213,7 +220,8 @@ footer a:hover {
     padding-top: 50px;
 }
 
-.container {
+
+.containers {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
@@ -223,7 +231,6 @@ footer a:hover {
     padding: 1rem 80px;
     font-size: 1.2rem;
 }
-
 #skills ul {
     display: flex;
     justify-content: center;
@@ -305,6 +312,34 @@ aside a {
 }
 
 /* Main */
+
+#resume {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    background-color: #bfcde0;
+    padding: 25px;
+}
+
+.container {
+    padding: 25px;
+
+}
+
+aside {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    padding: 25px;
+}
+
+.column {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#main-about {
+    background-color: #bfcde0;
+}
 
 .fa {
     color: #7851A9;

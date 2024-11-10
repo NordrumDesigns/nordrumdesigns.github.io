@@ -14,14 +14,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Holtwood+One+SC&family=Noto+Sans+Runic&display=swap" rel="stylesheet">
 
+    <script defer src="/js/script.js"></script>
 </head>
 <body>
 
 <!--Header-->
 
     <header>
-
-        <h1><a href="/">Chris Nordrum</a></h1>
+        <h1>Chris Nordrum</h1>
         <nav> 
             <ul>
                 <li><a href="/">Home</a></li>
@@ -29,23 +29,22 @@
                 <li><a href="/projects/index.html">My Work</a></li>
             </ul>
         </nav>
-
     </header>
 
-    <aside class="w3-third">
+    <main id="resume">
+        <aside class="container">
         <div>
-            <figure class="w3-display-container">
+            <figure>
                 <img src="/images/Chris-Nordrum-Eyes-Closed.JPG" style="width: 100%;" alt="Chris Nordrum smiling at the camera with his thumbs up and eyes closed.">
-                <div class="w3-display-bottomleft w3-container w3-text-white"><h2>Chris Nordrum</h2></div>
+                <h2>Chris Nordrum</h2>
             </figure>
             <ul>
-                <li><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-purple"></i>Designer / Developer</li>
-                <li><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-purple"></i>Calgary, Canada</li>
-                <li><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-purple"></i><a href="mailto:nordrum.chris@gmail.com" aria-label="Send and email to Chris Nordrum">nordrum.chris@gmail.com</a></li>
+                <li><i class="fa fa-briefcase fa-fw w3-margin-right w3-large"></i>Designer / Developer</li>
+                <li><i class="fa fa-home fa-fw w3-margin-right w3-large"></i>Calgary, Canada</li>
+                <li><i class="fa fa-envelope fa-fw w3-margin-right w3-large"></i><a href="mailto:nordrum.chris@gmail.com" aria-label="Send and email to Chris Nordrum">nordrum.chris@gmail.com</a></li>
             </ul>
             <hr>
-            <h3><i class="fa fa-asterisk"></i>Skills</h3>
-            <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-purple"></i>Skills</b></p>
+            <h3><i class="fa fa-asterisk fa-fw w3-margin-right"></i>Skills</h3>
             <p>Adobe Photoshop</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-purple" style="width:90%">90%</div>
@@ -65,16 +64,16 @@
           </div>
           <br>
         </div>
-    </aside>
-    <main>
 
-        <section>
+        </aside>
+        <div class="column">
+        <section class="container">
             <h2><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge"></i>Key Summary</h2>
             <p>I am a junior at the Southern Alberta Institute of Technology (SAIT), where I am improving my web design and development skills. As a prior freelance web designer, nothing excites me more than learning about my clients and their brands and trying to represent them digitally with websites.
                 <br>As such, I am expanding my skillset by taking visual design and digital media courses to increase my opportunities to help clients. I enjoy connecting people with technology and am excited to see how digital design progresses in the future.</p>
         </section>
 
-        <section>
+        <section class="container">
             <h2><i class="fa fa-briefcase fa-fw w3-margin-right w3-xxlarge"></i>Experience</h2>
             <h3 class="w3-opacity">Retail / Top Gear Car Wash</h3>
             <p class="date"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Oct 2018 - <span class="current">Current</span></p>
@@ -85,7 +84,7 @@
             <p>It was also fun.</p>
         </section>
 
-        <section>
+        <section class="container">
             <h2><i class="fa fa-award fa-fw w3-margin-right w3-xxlarge"></i>Education</h2>
             <h3 class="w3-opacity">Southern Alberta Institute of Technology</h3>
             <p class="date"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2024 - Apr 2026</p>
@@ -95,98 +94,19 @@
             <p class="date"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2022</p>
             <p>Canadian Securities Course</p>
         </section>
-
-<!--About Me Section-->
-
-        <section>
-            <h3>Fun Facts</h3>
-            <ol>
-                <li>I was born in Tønsberg, Norway. 🇳🇴</li>
-                <li>I have travelled to 4 continents. ✈️</li>
-                <li>I have administered CPR <strong>twice</strong>. ❤️‍🩹</li>
-            </ol>
-        </section>
-
-<!--Skills Section-->
-
-        <section>
-            <h2>Skills</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Skills</th>
-                        <th>Software</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Visual Design</td>
-                        <td>Adobe Illustrator</td>
-                    </tr>
-                    <tr>
-                        <td>Digital Media</td>
-                        <td>Adobe Premiere Pro</td>
-                    </tr>
-                    <tr>
-                        <td>Web Development</td>
-                        <td>Visual Studio Code</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-        <section>
-            <h2>My Goals</h2>
-            <figure id="world_map">
-                <div class="map-frame">
-                    <iframe src="//www.fla-shop.com/visited-countries/embed/?st=BZ%2CCA%2CCY%2CDO%2CHK%2CHN%2CMX%2CNL%2CNO%2CPH%2CSE%2CTC%2CUS&vc=1ca032&uc=b3c3ca&hc=40bfa6&bc=ffffff&ss=on" frameborder="0" scrolling="no"></iframe>
-                </div>
-                <figcaption><h3>13 / 195 Countries Visited</h3></figcaption>
-            </figure>
-            <div style="max-width:980px;margin:5px auto 10px auto;font-size:14px;"><div style="position:relative;padding: 0 0 67% 0;height:0;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="//www.fla-shop.com/visited-countries/embed/?st=BZ%2CCA%2CCY%2CDO%2CHK%2CHN%2CMX%2CNL%2CNO%2CPH%2CSE%2CTC%2CUS&vc=7851a9&uc=b3c3ca&hc=bfcde0&bc=fefcfd" frameborder="0" scrolling="no"></iframe></div></div>
-        </section>
-
-        <section id="skills">
-            <h2>Skills</h2>
-            <div class="container">
-                <figure>
-                    <i class="fa fa-illustrator"></i>
-                    <figcaption>Visual Design</figcaption>
-                </figure>
-                <figure>
-                    <i class="fa fa-users-rectangle"></i>
-                    <figcaption>UX Design</figcaption>
-                </figure>
-                <figure>
-                    <i class="fa fa-camera"></i>
-                    <figcaption>Digital Media</figcaption>
-                </figure>
-                <figure>
-                    <i class="fa-brands fa-html5"></i>
-                    <figcaption>HTML</figcaption>
-                </figure>
-                <figure>
-                    <i class="fa-brands fa-css3-alt"></i>
-                    <figcaption>CSS</figcaption>
-                </figure>
-                <figure>
-                    <i class="fa-brands fa-js"></i>
-                    <figcaption>JavaScript</figcaption>
-                </figure>
-            </div>
-        </section>
+        </div>
     </main>
 
 <!--Footer-->
 
     <footer>
-        <h2>Get in touch.</h2>
         <ul>
-            <li><a href="https://www.instagram.com/nordrumdesigns/" aria-label="Follow Chris Nordrum on Instagram" class="fa fa-instagram"></a></li>
-            <li><a href="https://www.linkedin.com/in/chris-nordrum-63151b2a4/" aria-label="Connect with Chris Nordrum on LinkedIn" class="fa fa-linkedin"></a></li>
+            <li><a href="https://www.instagram.com/nordrumdesigns/" aria-label="Follow Chris Nordrum on Instagram" class="fa-brands fa-instagram"></a></li>
+            <li><a href="https://www.linkedin.com/in/chris-nordrum-63151b2a4/" aria-label="Connect with Chris Nordrum on LinkedIn" class="fa-brands fa-linkedin-in"></a></li>
             <li><a href="mailto:nordrum.chris@gmail.com" aria-label="Send and email to Chris Nordrum" class="fa fa-envelope"></a></li>
-         </ul>
-        <small>© Chris Haakon Nordrum. All Rights Reserved.</small>
+        </ul>
+        <br>
+        <small>© Chris Haakon Nordrum, <span id="footerYear"></span>.</small>
     </footer>
 </body>
 </html>
