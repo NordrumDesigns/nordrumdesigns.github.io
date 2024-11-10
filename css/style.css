@@ -7,6 +7,11 @@ Black #07070A */
 
 /* ALL PAGES */
 
+element {
+    -royal-purple: #7851a9;
+    -columbia-blue: #bfcde0;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -23,7 +28,6 @@ h1 {
 
 h2, h3 {
     font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
     color: #07070a;
@@ -95,6 +99,9 @@ p, figcaption {
     #hero {
         flex-wrap: wrap-reverse;
         text-align: center;
+    }
+    #resume {
+        flex-direction: column;
     }
 }
 
