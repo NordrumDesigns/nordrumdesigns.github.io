@@ -7,34 +7,23 @@ Black #07070A */
 
 /* ALL PAGES */
 
-element {
-    -royal-purple: #7851a9;
-    -columbia-blue: #bfcde0;
-}
-
 * {
     padding: 0;
     margin: 0;
     color: #07070a;
     background-color: #fefcfd;
+    line-height: 2em;
 }
 
-h1 {
+h1, h2, h3 {
     font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-    font-size: 24px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
 }
 
-h2, h3 {
-    font-family: "Rubik", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    color: #07070a;
-}
-
-p, figcaption {
-    font-family: futura, sans-serif;
+p, li, figcaption {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.4em;
 }
 
 /* icons */
@@ -197,10 +186,6 @@ footer a:hover {
     padding: 25px;
 }
 
-#hero ul {
-    
-}
-
 .socials {
     display: flex;
     list-style: none;
@@ -317,6 +302,9 @@ button:hover {
 aside a {
     text-decoration: none;
 }
+aside ul {
+    list-style: none;
+}
 
 /* Main */
 
@@ -344,8 +332,9 @@ aside {
     grid-column-end: 3;
 }
 
-#main-about {
-    background-color: #bfcde0;
+.column h3 {
+    font-weight: 500;
+    opacity: 70%;
 }
 
 .fa {
@@ -363,35 +352,4 @@ aside {
     padding-top: 2px;
     padding-bottom: 2px;
     border-radius: 4px;
-}
-
-/* Education Section */
-
-thead {
-    display: flex;
-}
-
-/* Goals Section */
-
-#world_map {
-    max-width: 980px;
-    margin: 5px auto 10px auto;
-    border-radius: 50%;
-    background-color: #4169e1;
-}
-
-.map-frame {
-    position: relative;
-    padding: 0 0 67% 0;
-    height: 0;
-    overflow: hidden;
-    background-color: #4169e1;
-}
-
-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
