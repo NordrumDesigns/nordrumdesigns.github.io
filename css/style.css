@@ -96,10 +96,11 @@ p, li, figcaption {
         flex-wrap: wrap-reverse;
         text-align: center;
     }
-    #resume {
-        grid-template-columns: 1fr;
+    #hero .socials {
+        justify-content: center;
     }
 }
+
 
 
 /* Header */
@@ -157,6 +158,9 @@ footer a:hover {
     transform: scale(1.1);
     opacity: 0.7;
 }
+
+/* HOMEPAGE */
+
 /* Hero Section */
 
 #hero {
@@ -192,16 +196,17 @@ footer a:hover {
 .socials {
     display: flex;
     list-style: none;
+    padding-top: 10px;
 }
 
-#hero a {
+.socials a {
     border-radius: 5px;
     padding: 0.3em;
     margin: 0.2em;
     text-decoration: none;
 }
 
-#hero a:hover {
+.socials a:hover {
     transform: scale(1.1);
     opacity: 0.7;
 }
@@ -300,7 +305,22 @@ button:hover {
 
 /* ABOUT PAGE */
 
-/* Aside */
+#resume {
+    display: flex;
+    gap: 10px;
+    background-color: #bfcde0;
+    padding: 25px;
+}
+
+#resume .fa {
+    color: #7851A9;
+    margin-right: 16px;
+}
+
+aside {
+    flex: 30%;
+    padding: 20px;
+}
 
 aside a {
     text-decoration: none;
@@ -309,39 +329,19 @@ aside ul {
     list-style: none;
 }
 
-/* Main */
-
-#resume {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 10px;
-    background-color: #bfcde0;
-    padding: 25px;
-}
-
-.container {
-    padding: 25px;
-
-}
-
-aside {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    padding: 25px;
+aside .socials {
+    justify-content: center;
+    padding-bottom: 10px;
 }
 
 .column {
-    grid-column-start: 2;
-    grid-column-end: 3;
+    flex: 70%;
+    padding: 20px;
 }
 
 .column h3 {
     font-weight: 500;
     opacity: 70%;
-}
-
-.fa {
-    color: #7851A9;
 }
 
 .date {
@@ -355,4 +355,10 @@ aside {
     padding-top: 2px;
     padding-bottom: 2px;
     border-radius: 4px;
+}
+
+@media screen and (max-width: 890px) {
+    #resume {
+        flex-direction: column;
+    }
 }
