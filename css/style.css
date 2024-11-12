@@ -275,6 +275,7 @@ button:hover {
 aside {
     flex: 30%;
     padding: 20px;
+    margin-bottom: auto;
 }
 
 .overlap {
