@@ -1,4 +1,12 @@
-console.log('Hello, world');
+console.log(`Hello, world!`);
+
+/* Author */
+const firstName = "Chris";
+const middleName = "Haakon";
+const lastName = "Nordrum";
+
+console.log(`I'm ${firstName} ${middleName} ${lastName}.`);
+
 
 // greetings
 const d = new Date();
@@ -37,3 +45,20 @@ alertBtn.addEventListener('mouseover', () => {
 alertBtn.addEventListener('mouseout', () => {
   alertBtn.textContent = "Click Me";
 });//Reg text
+
+/* for Loop */
+const numbersEl = document.getElementById("numbers");
+
+for (let i = 0; i <= 12; i++) {
+  if (i === 0) {
+    const li = document.createElement('li');
+    li.innerText = "even";
+    numbersEl.appendChild('li');
+  }
+  else if (i % 2 === 0) {
+    console.log
+  }
+  else {
+
+  }
+}
