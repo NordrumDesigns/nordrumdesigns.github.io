@@ -2,6 +2,7 @@ console.log('Hello, world');
 
 // greetings
 const d = new Date();
+const year = d.getFullYear();
 const hrs = d.getHours();
 
 var greet;
@@ -20,6 +21,19 @@ else if (hrs >= 17 && hrs <= 24)
 document.getElementById('greetings').innerHTML = greet;
 
 // footerYear
+document.querySelectorAll('.footerYear').forEach(el => el.innerText = year);
 
-const fYear = d.getFullYear();
-document.querySelectorAll(".footerYear").forEach(el => el.innerText = fYear);
+/* Button */
+const alertBtn = document.getElementById('btn-alert');
+
+alertBtn.addEventListener('click', () => {
+  alert("YOU'VE BEEN HACKED! MWAHAHAHA! \u{2620} jk");
+}); //Alert message
+
+alertBtn.addEventListener('mouseover', () => {
+  alertBtn.textContent = "PLS Click Me";
+});//Hover text
+
+alertBtn.addEventListener('mouseout', () => {
+  alertBtn.textContent = "Click Me";
+});//Reg text

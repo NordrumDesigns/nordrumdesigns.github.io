@@ -203,6 +203,11 @@ footer {
     padding-bottom: 0px;
 }
 
+/*Remove after JS lab */
+
+#hero button {
+    margin-top: 10px;
+}
 
 /* Projects */
 
