@@ -20,5 +20,6 @@ else if (hrs >= 17 && hrs <= 24)
 document.getElementById('greetings').innerHTML = greet;
 
 // footerYear
-const fYear = document.getElementById('footerYear');
-fYear.textContent = d.getFullYear();
+
+const fYear = d.getFullYear();
+document.querySelectorAll(".footerYear").forEach(el => el.innerText = fYear);
