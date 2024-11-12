@@ -58,18 +58,6 @@ img {
     background-color: #171515;
 }
 
-.fa-eye {
-    font-size: 40px;
-}
-
-.fa-users-rectangle {
-    font-size: 40px;
-}
-
-.fa-camera {
-    font-size: 40px;
-}
-
 .fa-html5 {
     font-size: 40px;
     color: #ff4500;
@@ -164,10 +152,13 @@ footer {
     align-items: center;
     justify-content: space-between;
     margin: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 25px;
-    padding-bottom: 4px;
+    padding: 25px;
+}
+
+#hero h2 {
+    line-height: 1.4em;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 #hero img {
@@ -206,49 +197,18 @@ footer {
     opacity: 0.7;
 }
 
-/* Skills Section */
-
-#skills {
-    background-color: #fefcfd;
-    text-align: center;
-    padding: 25px;
-    padding-top: 50px;
-}
-
-
-.containers {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    grid-gap: 1rem;
-    padding: 1rem 80px;
-    font-size: 1.2rem;
-}
-#skills ul {
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-    list-style: none;
-}
-
-#skills li {
-    border: 2.5px solid #7851A9;
-    padding: 5px;
-}
 
 /* Projects */
 
 #projects {
     background-color: #bfcde0;
     text-align: center;
-    padding-bottom: 25px;
     margin: auto;
 }
 
 #projects h2 {
     background-color: #bfcde0;
+    margin-top: -15px;
 }
 
 svg {
@@ -259,6 +219,7 @@ svg {
 #svg-bottom {
     transform: scaleX(-1);
     transform: rotate(180deg);
+    margin-bottom: -12px;
 }
 
 .project-pic {
@@ -289,6 +250,7 @@ button {
     font-family: futura, sans-serif;
     padding: 10px 24px;
     border-radius: 8px;
+    margin-bottom: 5px;
 }
 
 button:hover {
@@ -313,6 +275,14 @@ button:hover {
 aside {
     flex: 30%;
     padding: 20px;
+}
+
+.overlap {
+    color: #fefcfd;
+    text-shadow: 1px 1px 2px #7851A9;
+    margin-top: -60px;
+    margin-left: 16px;
+    padding-bottom: 20px;
 }
 
 aside a {
@@ -394,6 +364,7 @@ aside .socials {
 
 figure {
     max-width: 500px;
+    margin-bottom: auto;
     
 }
 
