@@ -27,10 +27,17 @@ h1 {
 
 p, li, figcaption {
     font-family: "Roboto", sans-serif;
+    font-style: normal;
 }
 
 .paragraph {
     line-height: 1.4em;
+}
+
+hr {
+    margin-top: 1em;
+    margin-bottom: 0.6em;
+    opacity: 70%;
 }
 
 img {
@@ -38,6 +45,24 @@ img {
 }
 
 /* icons */
+
+.socials {
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+}
+
+.socials a {
+    border-radius: 6px;
+    padding: 0.3em;
+    margin: 0.2em;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    transform: scale(1.1);
+    opacity: 0.7;
+}
 
 .fa-linkedin-in {
     color: #fff;
@@ -150,7 +175,6 @@ footer {
     background-color: #fefcfd;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     margin: 10px;
     padding: 25px;
 }
@@ -163,38 +187,20 @@ footer {
 
 #hero img {
     flex: auto;
-    max-width: 50%;
     float: right;
+    max-width: 50%;
     display: block;
     margin: auto;
     border-radius: 50%;
-    border: 5px solid #7851A9;
+    border: 3px solid #7851A9;
     box-shadow: 0 4px 8px #07070a;
-
 }
 
 .hero-text {
     flex: auto;
     float: left;
     padding: 25px;
-}
-
-.socials {
-    display: flex;
-    list-style: none;
-    padding-top: 10px;
-}
-
-.socials a {
-    border-radius: 6px;
-    padding: 0.3em;
-    margin: 0.2em;
-    text-decoration: none;
-}
-
-.socials a:hover {
-    transform: scale(1.1);
-    opacity: 0.7;
+    padding-bottom: 0px;
 }
 
 
@@ -217,7 +223,6 @@ svg {
 }
 
 #svg-bottom {
-    transform: scaleX(-1);
     transform: rotate(180deg);
     margin-bottom: -12px;
 }
@@ -333,6 +338,12 @@ aside .socials {
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 490px) {
+    .hide {
+        display: none;
+    }
+} /* abbreviate SAIT */
 
 
 /* PROJECTS PAGE */
