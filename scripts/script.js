@@ -21,7 +21,6 @@ let mm = months[month];
 console.log(`${mm} ${dd}, ${yyyy}.`);
 
 // greetings
-
 var greet;
 
 if (hrs < 12)
@@ -65,8 +64,3 @@ for (let i = 0; i <= 11; i++) {
   }
   document.getElementById(`numbers`).appendChild(li);
 }
-
-// footerYear
-document.querySelectorAll('.footerYear').forEach(copyright => {
-  copyright.innerHTML = yyyy;
-});
