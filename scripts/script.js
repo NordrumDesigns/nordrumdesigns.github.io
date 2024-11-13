@@ -29,7 +29,9 @@ else if (hrs >= 17 && hrs <= 24)
 document.getElementById('greetings').innerHTML = greet;
 
 // footerYear
-document.querySelectorAll('.footerYear').forEach(el => el.innerText = year);
+document.querySelectorAll('.footerYear').forEach(copyright => {
+  copyright.innerHTML = year;
+});
 
 /* Button */
 const alertBtn = document.getElementById('btn-alert');
