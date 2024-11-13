@@ -275,6 +275,22 @@ button:hover {
 }
 
 
+#forLoop {
+    text-align: center;
+} /*remove after js labs*/
+
+ol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px;
+} /* remove after js lab*/
+
+ol li {
+    margin: 1em;
+} /*remove after js lab*/
+
+
 /* ABOUT PAGE */
 
 #resume {

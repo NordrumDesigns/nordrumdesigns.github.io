@@ -7,14 +7,22 @@ const lastName = "Nordrum";
 
 console.log(`I'm ${firstName} ${middleName} ${lastName}.`);
 
+/* Date */
+const d = new Date();
+const yyyy = d.getFullYear();
+const month = d.getMonth();
+const dd = d.getDate();
+const hrs = d.getHours();
+const months = ["January", "February", "March", "April", "May", "June",
+"July", "August", "September", "October", "November", "December"];
+
+let mm = months[month];
+
+console.log(`${mm} ${dd}, ${yyyy}.`);
 
 // greetings
-const d = new Date();
-const year = d.getFullYear();
-const hrs = d.getHours();
 
 var greet;
-var c;
 
 if (hrs < 12)
   greet = 'Good morning,',
@@ -28,12 +36,7 @@ else if (hrs >= 17 && hrs <= 24)
 
 document.getElementById('greetings').innerHTML = greet;
 
-// footerYear
-document.querySelectorAll('.footerYear').forEach(copyright => {
-  copyright.innerHTML = year;
-});
-
-/* Button */
+// btn-alert
 const alertBtn = document.getElementById('btn-alert');
 
 alertBtn.addEventListener('click', () => {
@@ -48,19 +51,22 @@ alertBtn.addEventListener('mouseout', () => {
   alertBtn.textContent = "Click Me";
 });//Reg text
 
-/* for Loop */
-const numbersEl = document.getElementById("numbers");
-
-for (let i = 0; i <= 12; i++) {
+// numbers
+for (let i = 0; i <= 11; i++) {
+  const li = document.createElement("li");
   if (i === 0) {
-    const li = document.createElement('li');
-    li.innerText = "even";
-    numbersEl.appendChild('li');
+    li.textContent = " odd";
   }
   else if (i % 2 === 0) {
-    console.log
+    li.textContent = " odd";
   }
   else {
-
+    li.textContent = " even";
   }
+  document.getElementById(`numbers`).appendChild(li);
 }
+
+// footerYear
+document.querySelectorAll('.footerYear').forEach(copyright => {
+  copyright.innerHTML = yyyy;
+});
