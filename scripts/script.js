@@ -21,7 +21,7 @@ let mm = months[month];
 console.log(`${mm} ${dd}, ${yyyy}.`);
 
 // greetings
-var greet;
+let greet;
 
 if (hrs < 12)
   greet = 'Good morning,',
