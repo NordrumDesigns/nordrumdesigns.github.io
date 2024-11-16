@@ -63,4 +63,4 @@ for (let i = 0; i <= 11; i++) {
     li.textContent = " even";
   }
   document.getElementById(`numbers`).appendChild(li);
-}
+};
