@@ -2,5 +2,5 @@
 Portfolio website to showcase my web design projects.
 - [x] HTML
 - [x] CSS
-- [ ] JavaScript
+- [x] JavaScript
 > [nordrumdesigns.github.io](https://nordrumdesigns.github.io/)
